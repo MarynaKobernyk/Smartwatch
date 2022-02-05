@@ -555,6 +555,11 @@ button .link1 {
   color: #01010d;
 }
 
+.main__author {
+  display: flex;
+  flex-direction: row;
+}
+
 .author {
   position: relative;
   margin-top: 30px;
@@ -590,12 +595,17 @@ button .link1 {
 }
 
 .vectors {
-  margin-left: 368px;
+  margin-left: 123px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .vectors object {
   opacity: 0.1;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  padding-right: 14px;
 }
 
 footer {
